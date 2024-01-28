@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    font-size: 1.3em;
+    margin: 0 auto;
+    text-align: center;
+}
+h1 {
+    margin-bottom: 1em;
+}
+img {
+    margin: 1em;
+}
+.footer {
+    margin-top: 2em;
+}

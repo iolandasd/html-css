@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Idroid';
+    src: url(../fonts/idroid.otf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor-h2: #3710e6da;
+    --cor1: #8ebef5;
+    --cor2: #A290F5;
+    --cor3: #b6bffd;
+    --cor4: #9DE2F5;
+    --cor5: #CBA2F5;
+    --fonte-corpo: 'Josefin Sans', sans-serif;
+    --fonte-h1: 'Idroid', sans-serif;
+    --fonte-h2: 'Bebas Neue', sans-serif;
+}
+
+body {
+    background-color: var(--cor3);
+    font-family: var(--fonte-corpo);
+    text-align: justify;
+    width: 100%;
+}
+
+header {
+    background-image: linear-gradient(to top, #3710e68f, #1291b4b0, #cca2f5ab);
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+h1 {
+    font-family: var(--fonte-h1);
+    font-size: 2.6em;
+    letter-spacing: .1em;
+    padding: 1.5em 0 0.8em 0;
+    text-align: center;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+
+.p-header {
+    font-size: 1.4em;
+    margin: 0.2em auto 2em auto;
+    max-width: 30%;
+    min-width: 300px;
+    text-align: center;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    box-shadow: inset 2px 1px 4px rgba(0, 0, 0, 0.5); 
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    padding: 1.2em 0 1.2em 0;
+}
+
+.header-link {
+    align-self: center;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 1.2em;
+    text-decoration: none;
+    text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+
+.header-link:hover {
+    color: var(--cor5);
+}
+
+h2 {
+    font-family: var(--fonte-h2);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+main {
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    max-width: 1000px;
+    min-width: 300px;
+    padding: 1.5em;
+}
+
+.article-h2 {
+    color: var(--cor-h2);
+    font-size: 2.4em;
+    text-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.705);
+}
+
+img {
+    width: 100%;
+}
+
+main > article > p {
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 1.6em;
+    margin: 1em 0;
+    text-indent: 1.6em;
+}
+
+h3 {
+    background-image: linear-gradient(to right, var(--cor2), white);
+    color: var(--cor-h2);
+    font-family: var(--fonte-h2);
+    font-size: 1.8em;
+    font-weight: 300;
+    padding-left: 0.5em;
+}
+
+.article-a-dan-morrill, .article-a-inkscape, .article-a-irina, .aside-link  {
+    background-color: #cdc2ff;
+    color: var(--cor-h2);
+    font-weight: bold;
+    padding-left: 0.3em;
+    text-decoration: none;
+}
+
+.article-a-dan-morrill::after, .article-a-inkscape::after, .article-a-irina::after, .aside-link::after  {
+    content: '🔗';
+}
+
+
+.container-bug-droid {
+    display: flex;
+    justify-content: center;
+}
+
+.img-bug-droid {
+    max-width: 300px;
+}
+
+.video-container {
+    background-color: var(--cor-h2);
+    height: 50vh;
+    margin: 0px -24px 0px -24px;
+    padding: 2em 3em;
+}
+
+
+.youtube-video {
+    height: 100%;
+    width: 100%;
+}
+
+aside {
+    margin-top: 2em;
+    max-width: 1000px;
+    min-width: 300px;
+}
+
+.aside-container {
+    background-color: #cdc2ff;  
+    border-radius: 10px; 
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.5);
+    padding-bottom: .6em;
+}
+
+.aside-h2 {
+    background-color: var(--cor-h2);
+    border-radius: 10px 10px 0 0;
+    color: white;
+    margin-bottom: .8em;
+    padding: .4em;
+}
+
+.aside-padding-text {
+    font-size: 1.3em;
+    padding: .8em 1em;
+    text-indent: 1.6em;
+}
+
+ul {
+    columns: 2;
+    list-style-position: inside;
+    list-style-type: '\2714\00A0';
+}
+
+li {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.highlight-text {
+    color: var(--cor-h2);
+    font-weight: bold;
+}
+
+.aside-last-p {
+    font-size: 1.3em;
+    margin-top: 1em;
+    padding-bottom: 1em;
+    text-indent: 1.6em;
+}
+
+footer {
+    background-color: var(--cor-h2);
+    color: white;
+    font-size: 1.2em;
+    margin-top: 2em;
+    padding: .8em 0;
+    text-align: center;
+    width: 100%;
+}
