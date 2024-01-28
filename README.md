@@ -3,4 +3,4 @@
 
 Aprendendo a criar sites e gerenciar repositórios Git e GitHub.
 
-Visualizar o Desafio 10: https://github.com/iolandasd/html-css/tree/main/desafios/010-site-android/index.html
+Visualizar o Desafio 10 - Site Android: https://iolandasd.github.io/html-css/desafios/010-site-android/index.html
